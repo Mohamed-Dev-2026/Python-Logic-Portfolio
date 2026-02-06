@@ -1,0 +1,13 @@
+import os
+print("""
+hello
+hello
+hello
+""")
+input("\npress enter anykey to clear the screen")
+if os.name=="nt":
+    os.system("cls")
+else:
+    os.system("clear")
+
+input("\npress enter anykey to exit ")
